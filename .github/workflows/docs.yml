@@ -63,7 +63,7 @@ jobs:
         run: hugo -v --minify
 
       - name: Deploy
-        uses: amondnet/vercel-action@v25
+        uses: amondnet/vercel-action@v42
         id: vercel-action
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
